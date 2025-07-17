@@ -6,91 +6,103 @@
   <title>Javier Piratova | Backend Developer</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900 text-gray-200 font-sans p-6">
-  <main class="max-w-4xl mx-auto space-y-8">
-    <header>
-      <h1 class="text-4xl font-bold text-cyan-400">🧠 Javier Piratova</h1>
-      <p class="text-xl text-gray-400 mt-2">Senior .NET Backend Developer | APIs | GraphQL | DDD | Clean Architecture</p>
-    </header>
+<body class="bg-gray-950 text-gray-100 font-sans leading-relaxed">
+  <header class="bg-gradient-to-r from-cyan-600 to-blue-900 text-center py-10 shadow-lg">
+    <h1 class="text-5xl font-bold">🧠 Javier Piratova</h1>
+    <p class="text-xl mt-2 text-gray-200">Senior .NET Backend Developer | APIs | GraphQL | DDD | Clean Architecture</p>
+  </header>
 
-    <section>
-      <h2 class="text-2xl font-semibold text-orange-400">📌 About Me</h2>
-      <p class="mt-2">I'm a senior backend developer with over 15 years of experience building scalable, robust, and clean backend systems.</p>
-      <ul class="list-disc list-inside mt-2 space-y-1">
-        <li>REST & GraphQL APIs with .NET Core</li>
-        <li>Legacy system migration</li>
-        <li>Performance optimization (up to 95% in real-world projects)</li>
-        <li>RabbitMQ automation and deployments using Docker, Azure & Kubernetes</li>
-      </ul>
+  <main class="max-w-6xl mx-auto px-6 py-12 space-y-16">
+    
+    <!-- About Me -->
+    <section class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-semibold text-cyan-400 mb-4">📌 About Me</h2>
+        <p class="mb-4">I'm a senior backend developer with over 15 years of experience building scalable, robust, and clean backend systems.</p>
+        <ul class="list-disc list-inside space-y-1 text-sm text-gray-300">
+          <li>REST & GraphQL APIs with .NET Core</li>
+          <li>Legacy system migration</li>
+          <li>Performance optimization (up to 95%)</li>
+          <li>RabbitMQ automation, Docker, Azure & Kubernetes</li>
+        </ul>
+      </div>
+      <img src="coding-man.png" class="rounded-xl shadow-lg" alt="Coding illustration">
     </section>
 
+    <!-- Services -->
     <section>
-      <h2 class="text-2xl font-semibold text-orange-400">🚀 Services Offered</h2>
-      <ul class="list-disc list-inside mt-2 space-y-1">
-        <li>✅ REST & GraphQL API Development</li>
-        <li>✅ Legacy System Modernization (WCF/WebForms → .NET Core)</li>
-        <li>✅ SQL Optimization (PostgreSQL, SQL Server, Oracle)</li>
-        <li>✅ Software Architecture (DDD, CQRS, SOLID)</li>
-        <li>✅ API Integration (REST/SOAP/Keycloak)</li>
-        <li>✅ DevOps Deployments (Azure, Docker, Kubernetes)</li>
-      </ul>
+      <h2 class="text-3xl font-semibold text-orange-400 mb-6">🚀 Services Offered</h2>
+      <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-6 text-sm">
+        <div class="bg-gray-800 p-4 rounded-lg shadow">✅ REST & GraphQL API Development</div>
+        <div class="bg-gray-800 p-4 rounded-lg shadow">✅ Legacy System Modernization</div>
+        <div class="bg-gray-800 p-4 rounded-lg shadow">✅ SQL Optimization</div>
+        <div class="bg-gray-800 p-4 rounded-lg shadow">✅ DDD, CQRS, SOLID Architecture</div>
+        <div class="bg-gray-800 p-4 rounded-lg shadow">✅ API Integration (REST/SOAP/Keycloak)</div>
+        <div class="bg-gray-800 p-4 rounded-lg shadow">✅ DevOps Deployments (Azure, Docker)</div>
+      </div>
     </section>
 
+    <!-- Projects -->
     <section>
-      <h2 class="text-2xl font-semibold text-orange-400">💼 Featured Projects</h2>
-      <div class="mt-4 space-y-4">
-        <div>
-          <h3 class="font-bold text-cyan-300">🔹 Facial Biometric Platform – Thomas MTI (2024 – Present)</h3>
-          <ul class="list-disc list-inside ml-4 text-sm">
+      <h2 class="text-3xl font-semibold text-orange-400 mb-6">💼 Featured Projects</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-gray-850 p-6 rounded-lg shadow-md bg-gray-800">
+          <h3 class="text-cyan-300 font-bold mb-2">🔹 Facial Biometric Platform – Thomas MTI</h3>
+          <ul class="list-disc list-inside text-sm">
             <li>Reduced processing time by 95%</li>
-            <li>Integrated third-party biometric services (REST & SOAP)</li>
-            <li>Built using Hexagonal Architecture, DDD, CQRS</li>
-            <li><strong>Tech:</strong> .NET Core, RabbitMQ, PostgreSQL, GraphQL, Docker, Kubernetes</li>
+            <li>Integrated biometric services (REST & SOAP)</li>
+            <li>Hexagonal Architecture, DDD, CQRS</li>
+            <li><strong>Tech:</strong> .NET Core, RabbitMQ, PostgreSQL, GraphQL</li>
           </ul>
         </div>
-        <div>
-          <h3 class="font-bold text-cyan-300">🔹 Legacy System Migration – Falabella (2022 – 2023)</h3>
-          <ul class="list-disc list-inside ml-4 text-sm">
-            <li>Removed 90% of obsolete applications</li>
-            <li>Rebuilt systems using Clean Architecture and SOLID principles</li>
-            <li><strong>Tech:</strong> .NET Core, Oracle, Apache, Docker, Azure DevOps</li>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <h3 class="text-cyan-300 font-bold mb-2">🔹 Legacy System Migration – Falabella</h3>
+          <ul class="list-disc list-inside text-sm">
+            <li>Eliminated 90% of legacy applications</li>
+            <li>Clean Architecture + SOLID</li>
+            <li><strong>Tech:</strong> .NET Core, Oracle, Docker, Azure</li>
           </ul>
         </div>
-        <div>
-          <h3 class="font-bold text-cyan-300">🔹 Employee Benefits Portal – Claro Colombia (2021 – 2022)</h3>
-          <ul class="list-disc list-inside ml-4 text-sm">
-            <li>Designed and built internal employee portal from scratch</li>
-            <li>Fullstack implementation with backend logic and UI</li>
-            <li><strong>Tech:</strong> .NET Core, SQL Server, jQuery, HTML5, CSS3</li>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <h3 class="text-cyan-300 font-bold mb-2">🔹 Benefits Portal – Claro Colombia</h3>
+          <ul class="list-disc list-inside text-sm">
+            <li>Designed and built portal from scratch</li>
+            <li><strong>Tech:</strong> .NET Core, SQL Server, jQuery</li>
           </ul>
         </div>
-        <div>
-          <h3 class="font-bold text-cyan-300">🔹 Financial System – Aon Risk, Bayer, Cavipetrol (2018 – 2021)</h3>
-          <ul class="list-disc list-inside ml-4 text-sm">
-            <li>Led dev team, upgraded Angular from v9 to v12</li>
-            <li>Unified data from multiple LATAM offices</li>
-            <li><strong>Tech:</strong> .NET Core, Angular, TypeScript, SQL Server, MySQL</li>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <h3 class="text-cyan-300 font-bold mb-2">🔹 Financial System – Aon Risk, Bayer</h3>
+          <ul class="list-disc list-inside text-sm">
+            <li>Unified LATAM offices</li>
+            <li>Angular upgrade v9 → v12</li>
+            <li><strong>Tech:</strong> .NET Core, Angular, MySQL</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section>
-      <h2 class="text-2xl font-semibold text-orange-400">📇 Contact</h2>
-      <p class="mt-2">📧 javierpiratova8502@gmail.com</p>
-      <p>🔗 <a href="https://linkedin.com/in/javier-piratova" class="text-cyan-400 underline">LinkedIn</a></p>
+    <!-- Contact -->
+    <section class="grid md:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-3xl font-semibold text-orange-400 mb-4">📇 Contact</h2>
+        <p class="text-sm">📧 <a href="mailto:javierpiratova8502@gmail.com" class="text-cyan-400 hover:underline">javierpiratova8502@gmail.com</a></p>
+        <p class="text-sm">🔗 <a href="https://linkedin.com/in/javier-piratova" class="text-cyan-400 hover:underline">LinkedIn Profile</a></p>
+      </div>
+      <div>
+        <h2 class="text-3xl font-semibold text-orange-400 mb-4">🧑‍💻 Download My CV</h2>
+        <p class="text-sm">📄 View my résumé (PDF) — or ask for it via email.</p>
+      </div>
     </section>
 
-    <section>
-      <h2 class="text-2xl font-semibold text-orange-400">🧑‍💻 Download My CV</h2>
-      <p class="mt-2">📄 View my full résumé (PDF) — or ask for it via email.</p>
-    </section>
-
-    <section>
-      <h2 class="text-2xl font-semibold text-orange-400">💬 Let's Talk!</h2>
-      <p class="mt-2">Available for freelance work, consulting, or collaborative SaaS projects.</p>
-      <p>Let’s build something awesome together.</p>
+    <!-- Call to Action -->
+    <section class="text-center">
+      <h2 class="text-3xl font-semibold text-orange-400 mb-2">💬 Let's Talk!</h2>
+      <p class="text-sm text-gray-300">Available for freelance work, consulting, or collaborative SaaS projects.<br>Let’s build something awesome together.</p>
     </section>
   </main>
+
+  <footer class="text-center text-gray-600 text-xs py-6">
+    &copy; 2025 Javier Piratova. All rights reserved.
+  </footer>
 </body>
 </html>
